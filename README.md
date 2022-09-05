@@ -1,4 +1,4 @@
-![Model bias](./biased-model.jpeg)
+![Model bias](./stop_hate.jpg)
 
 # Korean-Counter-speech-TweetIDs
 
