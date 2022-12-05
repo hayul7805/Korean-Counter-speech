@@ -1,14 +1,15 @@
-![Model bias](./stop_hate.jpg)
-
 # Korean-Counter-speech-TweetIDs
 
+이 레포지터리에는 한국어로 작성된 대항표현 트윗ID 데이터셋과 데이터 구축에 사용된 소스 코드가 포함되어 있습니다. 혐오 표현에 대항하는 트윗을 모으기 위해 [Twint](https://github.com/twintproject/twint) 라이브러리를 사용하였고, 각 트윗에 대해 대상 그룹 정보 주석을 달았습니다. 트위터의 서비스 약관을 준수하기 위해 수집된 트윗의 트윗 ID만 공개하고 있습니다. 그러나 데이터는 비상업적인 연구용으로 공개되어 있습니다. 
 The repository contains a collection of tweets IDs associated with the counter-speech written in Korean. We used [Twint](https://github.com/twintproject/twint) library to gather Tweets countering against hate speech. We classified them and annotated target group information. To comply with Twitter’s [Terms of Service](https://developer.twitter.com/en/developer-terms/agreement-and-policy), we are only publicly releasing the Tweet IDs of the collected Tweets. The data is released for non-commercial research use. 
 
+이 레포지터리는 [혐오와 대항: 혐오표현 탐지 모델 평가를 위한 대항표현 데이터셋 구축(Countering the hatred: The counter-speech dataset in Korean for evaluating hate speech detection models)](https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11063346)이라는 이름으로 출판이 완료되었습니다.
 The associated paper to this repository can be found here: [혐오와 대항: 혐오표현 탐지 모델 평가를 위한 대항표현 데이터셋 구축(Countering the hatred: The counter-speech dataset in Korean for evaluating hate speech detection models)](https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11063346)(**written in Korean**)
 
 ## Notes About the Data
-* Consider using tools such as the [Hydrator](https://github.com/DocNow/hydrator) and [Twarc](https://github.com/DocNow/twarc) to rehydrate the Tweet IDs.
-* Hydrating may take a while, and *Tweets may have been deleted since our initial collection*. If that is the case, unfortunately you will not be able to get the deleted Tweets from querying Twitter's API. 
+
+* 트윗 ID를 이용해 원 트윗을 얻기 위해서는 [Hydrator](https://github.com/DocNow/hydrator)를 사용해야 합니다. Consider using tools such as the [Hydrator](https://github.com/DocNow/hydrator) and [Twarc](https://github.com/DocNow/twarc) to rehydrate the Tweet IDs.
+* 하이드레이팅은 시간이 걸리며, 몇몇 트윗은 삭제되었을 수 있습니다. Hydrating may take a while, and *Tweets may have been deleted since our initial collection*. If that is the case, unfortunately you will not be able to get the deleted Tweets from querying Twitter's API. 
 
 # Data Usage Agreement / How to Cite
 This dataset is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)). By using this dataset, you agree to abide by the stipulations in the license, remain in compliance with Twitter’s [Terms of Service](https://developer.twitter.com/en/developer-terms/agreement-and-policy), and cite the following manuscript: 
