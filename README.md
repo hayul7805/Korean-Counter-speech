@@ -9,9 +9,6 @@
 - 이 레포지터리는 [혐오와 대항: 혐오표현 탐지 모델 평가를 위한 대항표현 데이터셋 구축(Countering the hatred: The counter-speech dataset in Korean for evaluating hate speech detection models)](https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11063346)이라는 이름으로 출판이 완료되었습니다.
 - The associated paper to this repository can be found here: [혐오와 대항: 혐오표현 탐지 모델 평가를 위한 대항표현 데이터셋 구축(Countering the hatred: The counter-speech dataset in Korean for evaluating hate speech detection models)](https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11063346)(**written in Korean**)
 
-본 데이터셋은 다음과 같은 파이프라인으로 구축되었습니다.
-![Pipeline](./pipeline.png)
-
 ## Notes About the Data
 
 * 트윗 ID를 이용해 원 트윗을 얻기 위해서는 [Hydrator](https://github.com/DocNow/hydrator)를 사용해야 합니다. Consider using tools such as the [Hydrator](https://github.com/DocNow/hydrator) and [Twarc](https://github.com/DocNow/twarc) to rehydrate the Tweet IDs.
